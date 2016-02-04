@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color> <!-- Green 500 from Google material design palletes -->
+    <color name="colorPrimaryDark">#2E7D32</color> <!-- Green 800 -->
+    <color name="colorAccent">#B388FF</color> <!-- Deep Purple A100 -->
+</resources>

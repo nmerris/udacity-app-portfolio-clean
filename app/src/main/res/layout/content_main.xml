@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PortfolioDisplayFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/portfolio_header_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_spotify"
+        android:id="@+id/button_spotify"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_scores"
+        android:id="@+id/button_scores"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_library"
+        android:id="@+id/button_library"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_buildit"
+        android:id="@+id/button_buildit"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_xyz"
+        android:id="@+id/button_xyz"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+    <Button
+        android:layout_width="@dimen/portfolio_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/button_myapp"
+        android:id="@+id/button_myapp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        android:onClick="buttonClicked" />
+
+</LinearLayout>
